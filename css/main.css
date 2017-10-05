@@ -3,18 +3,37 @@ html {
   font-family: Georgia, serif;
   line-height: 1.5;
 }
+
 img {
   width: 100%;
 }
+
 h2 {
   color: #5d8432;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
+  text-transform: uppercase;
 }
+
 figcaption {
   font-size: 1rem;
   font-style: italic;
   text-align: center;
 }
-nav {
-  font-family: 'Patua One', cursive;
+
+nav a {
+  font-family: "Patua One", cursive;
+  font-weight: bold;
+  font-size: 1.125rem;
+  list-style-type: none;
+  text-decoration: none;
+  color: #793284;
+}
+
+a:hover {
+  color: #b42885;
+}
+
+p {
+  font-size: .8rem;
+  font-family: "Patua One", cursive;
 }
